@@ -8,6 +8,5 @@ let project = Project.makeModule(
         .project(target: "ThirdPartyLib", path: .relativeToRoot("Projects/Shared/GlobalThirdPartyLib"))
 
     ],
-    sources: ["Sources/**"],
     resources: ["Resources/**"]
 )
